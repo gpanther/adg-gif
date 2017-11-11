@@ -24,3 +24,5 @@ while True:
     ok = input('Ok? [Y/n]')
     if ok != 'n':
         break
+
+os.remove('palette.png')
